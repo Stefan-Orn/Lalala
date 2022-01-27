@@ -1,10 +1,21 @@
+@keyframes drasl {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 50;
+    }
+    100% {
+        opacity: 100;
+    }
+}
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     font-weight: 500;
     text-align: center;
     text-decoration: dotted;   
-    padding-top:0px;
+    padding-top:5px;
     padding-left: 10px;
     background-color: whitesmoke;
     color: red;
@@ -13,6 +24,18 @@ h1{
     margin: 0px;
     padding: 0px;
 }
+a{
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    animation: drasl 1s ease;
+    background-color: rgba(255, 0, 0, 0.438);
+    border-radius: 10px;
+}
+
 h3{
     padding: 10px;
     color: rgb(161, 75, 75);
