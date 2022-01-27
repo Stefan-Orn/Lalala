@@ -11,3 +11,8 @@ body{
 h3{
     color: rgb(161, 75, 75);
 }
+p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
